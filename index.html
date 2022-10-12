@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation </title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="" id="frm">
+      Enter your name  :<input type="text"  name="uname" id="un"  required> <span id="error1" placeholder ></span><br><br>
+
+
+        Enter your password<input type="password" name="unpass" id="up" placeholder="Enter your password" > <span id="error2"></span><br><br>
+
+
+        Mobile: <input type="text" name="mobile" id="movie">
+        <span id="error3"></span><br><br>
+
+
+        Gender: <input type="radio" name="gender" value="male"> Male<input type="radio" name="gender" value="female" required>female <br><br>
+
+
+
+        Email: <input type="text" id="email" ><b id="error4" ></b><br><br>
+
+
+        Address : <textarea name="" id="address" cols="16" rows="2" ></textarea><br><br>
+        <input type="submit" value="submit" onclick="return validateData()">
+
+    </form>
+
+</body>
+</html>
